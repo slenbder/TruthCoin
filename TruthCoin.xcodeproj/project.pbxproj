@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0DA68E2C19F89200E81222 /* moneta.obj in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DA68C2C19F89200E81222 /* moneta.obj */; };
+		4F0DA68F2C19F89200E81222 /* moneta.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DA68D2C19F89200E81222 /* moneta.mtl */; };
+		4F0DA6992C1A02FD00E81222 /* hammeredgold_1_Metallic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DA6962C1A02FD00E81222 /* hammeredgold_1_Metallic.jpg */; };
+		4F0DA69A2C1A02FD00E81222 /* hammeredgold_1_Roughness.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DA6972C1A02FD00E81222 /* hammeredgold_1_Roughness.jpg */; };
+		4F0DA69B2C1A02FD00E81222 /* hammeredgold_1_BaseColor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DA6982C1A02FD00E81222 /* hammeredgold_1_BaseColor.jpg */; };
 		4F9B58142C1864B1004C8E89 /* TruthCoinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B58132C1864B1004C8E89 /* TruthCoinApp.swift */; };
 		4F9B58162C1864B1004C8E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B58152C1864B1004C8E89 /* ContentView.swift */; };
 		4F9B58182C1864B2004C8E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B58172C1864B2004C8E89 /* Assets.xcassets */; };
 		4F9B581B2C1864B2004C8E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B581A2C1864B2004C8E89 /* Preview Assets.xcassets */; };
-		4F9B58222C186744004C8E89 /* Coin.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B58212C186744004C8E89 /* Coin.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0DA68C2C19F89200E81222 /* moneta.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moneta.obj; sourceTree = "<group>"; };
+		4F0DA68D2C19F89200E81222 /* moneta.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moneta.mtl; sourceTree = "<group>"; };
+		4F0DA6962C1A02FD00E81222 /* hammeredgold_1_Metallic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hammeredgold_1_Metallic.jpg; path = ../../../../../../../Pictures/hammeredgold_1_Metallic.jpg; sourceTree = "<group>"; };
+		4F0DA6972C1A02FD00E81222 /* hammeredgold_1_Roughness.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hammeredgold_1_Roughness.jpg; path = ../../../../../../../Pictures/hammeredgold_1_Roughness.jpg; sourceTree = "<group>"; };
+		4F0DA6982C1A02FD00E81222 /* hammeredgold_1_BaseColor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hammeredgold_1_BaseColor.jpg; path = ../../../../../../../Pictures/hammeredgold_1_BaseColor.jpg; sourceTree = "<group>"; };
 		4F9B58102C1864B1004C8E89 /* TruthCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9B58132C1864B1004C8E89 /* TruthCoinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthCoinApp.swift; sourceTree = "<group>"; };
 		4F9B58152C1864B1004C8E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F9B58172C1864B2004C8E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9B581A2C1864B2004C8E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4F9B58212C186744004C8E89 /* Coin.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Coin.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0DA68B2C19F88100E81222 /* Coin */ = {
+			isa = PBXGroup;
+			children = (
+				4F0DA6982C1A02FD00E81222 /* hammeredgold_1_BaseColor.jpg */,
+				4F0DA6962C1A02FD00E81222 /* hammeredgold_1_Metallic.jpg */,
+				4F0DA6972C1A02FD00E81222 /* hammeredgold_1_Roughness.jpg */,
+				4F0DA68D2C19F89200E81222 /* moneta.mtl */,
+				4F0DA68C2C19F89200E81222 /* moneta.obj */,
+			);
+			path = Coin;
+			sourceTree = "<group>";
+		};
 		4F9B58072C1864B1004C8E89 = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +73,10 @@
 		4F9B58122C1864B1004C8E89 /* Truth Coin */ = {
 			isa = PBXGroup;
 			children = (
+				4F0DA68B2C19F88100E81222 /* Coin */,
 				4F9B58132C1864B1004C8E89 /* TruthCoinApp.swift */,
 				4F9B58152C1864B1004C8E89 /* ContentView.swift */,
 				4F9B58172C1864B2004C8E89 /* Assets.xcassets */,
-				4F9B58212C186744004C8E89 /* Coin.scn */,
 				4F9B58192C1864B2004C8E89 /* Preview Content */,
 			);
 			path = "Truth Coin";
@@ -128,8 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F9B58222C186744004C8E89 /* Coin.scn in Resources */,
+				4F0DA69B2C1A02FD00E81222 /* hammeredgold_1_BaseColor.jpg in Resources */,
 				4F9B581B2C1864B2004C8E89 /* Preview Assets.xcassets in Resources */,
+				4F0DA68F2C19F89200E81222 /* moneta.mtl in Resources */,
+				4F0DA6992C1A02FD00E81222 /* hammeredgold_1_Metallic.jpg in Resources */,
+				4F0DA69A2C1A02FD00E81222 /* hammeredgold_1_Roughness.jpg in Resources */,
+				4F0DA68E2C19F89200E81222 /* moneta.obj in Resources */,
 				4F9B58182C1864B2004C8E89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
